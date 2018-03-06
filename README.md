@@ -1,5 +1,5 @@
 # mario_stepper
-Description:
+<b>Description:</b><br />
 	This code plays a Mario Bros overworld theme snippet on a stepper motor using interrupts. 
   
 Hardware Used:
