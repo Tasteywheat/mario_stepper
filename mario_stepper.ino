@@ -68,66 +68,64 @@ struct Note
 };
 
 Note MarioTheme[] = {
-//14 Opening
+//Opening
 {E5, Q_NOTE, PLUCK}, {E5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} , {E5, Q_NOTE, PLUCK},
 {REST, 0, Q_NOTE} , {C5, Q_NOTE, PLUCK}, {E5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} ,
 {G5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} , {REST, 0, H_NOTE}, {G4, Q_NOTE, PLUCK},
 {REST, 0, Q_NOTE} , {REST, 0, H_NOTE},
 
-//13 First verse
+//First verse
 {C5, Q_NOTE, PLUCK}, {REST, 0, H_NOTE}, {G4, Q_NOTE, PLUCK},  {REST, 0, H_NOTE}, 
 {E4, Q_NOTE, PLUCK}, {REST, 0, H_NOTE}, {A4, Q_NOTE, PLUCK},  {REST, 0, Q_NOTE},
 {B4, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE}, {AS4, Q_NOTE, PLUCK}, {A4, Q_NOTE, PLUCK},
 {REST, 0, Q_NOTE}, 
 
-//14
 {G4, Q_NOTE_PLUS, PLUCK}, {E5, Q_NOTE_PLUS, PLUCK}, {G5, Q_NOTE_PLUS, PLUCK}, {A5, Q_NOTE, PLUCK},
 {REST, 0, Q_NOTE} , {F5, Q_NOTE, PLUCK}, {G5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE},
 {E5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} , {C5, Q_NOTE, PLUCK}, {D5, Q_NOTE, PLUCK},
 {B4, Q_NOTE, PLUCK}, {REST, 0, H_NOTE},
 
-//13 First verse
+//First verse
 {C5, Q_NOTE, PLUCK}, {REST, 0, H_NOTE}, {G4, Q_NOTE, PLUCK},  {REST, 0, H_NOTE}, 
 {E4, Q_NOTE, PLUCK}, {REST, 0, H_NOTE}, {A4, Q_NOTE, PLUCK},  {REST, 0, Q_NOTE},
 {B4, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE}, {AS4, Q_NOTE, PLUCK}, {A4, Q_NOTE, PLUCK},
 {REST, 0, Q_NOTE}, 
 
-//14
 {G4, Q_NOTE_PLUS, PLUCK}, {E5, Q_NOTE_PLUS, PLUCK}, {G5, Q_NOTE_PLUS, PLUCK}, {A5, Q_NOTE, PLUCK},
 {REST, 0, Q_NOTE} , {F5, Q_NOTE, PLUCK}, {G5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE},
 {E5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} , {C5, Q_NOTE, PLUCK}, {D5, Q_NOTE, PLUCK},
 {B4, Q_NOTE, PLUCK}, {REST, 0, H_NOTE},          
 
-//15 Second Verse
+//Second Verse
 {REST, 0, H_NOTE}, {G5, Q_NOTE, PLUCK}, {FS5, Q_NOTE, PLUCK}, {F5, Q_NOTE, PLUCK},
 {DS5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} , {E5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE},
 {GS4, Q_NOTE, PLUCK}, {A4, Q_NOTE, PLUCK}, {C5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE},
 {A4, Q_NOTE, PLUCK}, {C5, Q_NOTE, PLUCK}, {D5, Q_NOTE, PLUCK},
-//14
+
 {REST, 0, H_NOTE}, {G5, Q_NOTE, PLUCK}, {FS5, Q_NOTE, PLUCK}, {F5, Q_NOTE, PLUCK},
 {DS5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE}, {E5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE},
 {C6, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE}, {C6, Q_NOTE, PLUCK}, {C6, Q_NOTE, PLUCK},
 {REST, 0, H_NOTE}, {REST, 0, Q_NOTE},  
-//15
+
 {REST, 0, H_NOTE}, {G5, Q_NOTE, PLUCK}, {FS5, Q_NOTE, PLUCK}, {F5, Q_NOTE, PLUCK},
 {DS5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} , {E5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE},
 {GS4, Q_NOTE, PLUCK}, {A4, Q_NOTE, PLUCK}, {C5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE},
 {A4, Q_NOTE, PLUCK}, {C5, Q_NOTE, PLUCK}, {D5, Q_NOTE, PLUCK},
-//9
+
 {REST, 0, H_NOTE}, {DS5, Q_NOTE, PLUCK}, {REST, 0, H_NOTE}, {D5, Q_NOTE, PLUCK},
 {REST, 0, H_NOTE}, {C5, Q_NOTE, PLUCK}, {REST, 0, H_NOTE}, {REST, 0, Q_NOTE},  
 {REST, 0, W_NOTE},
 
-//15  Final Verse (that can fit anyways)
+//Final Verse (that can fit anyways)
 {C5, Q_NOTE, PLUCK}, {C5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} , {C5, Q_NOTE, PLUCK},
 {REST, 0, Q_NOTE} , {C5, Q_NOTE, PLUCK}, {D5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} ,
 {E5, Q_NOTE, PLUCK}, {C5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} , {A4, Q_NOTE, PLUCK},
 {G4, Q_NOTE, PLUCK}, {REST, 0, H_NOTE}, {REST, 0, Q_NOTE},  
-//10
+
 {C5, Q_NOTE, PLUCK}, {C5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} , {C5, Q_NOTE, PLUCK},
 {REST, 0, Q_NOTE} , {C5, Q_NOTE, PLUCK}, {D5, Q_NOTE, PLUCK}, {E5, Q_NOTE, PLUCK},
 {REST, 0, W_NOTE}, {REST, 0, W_NOTE},
-//15
+
 {C5, Q_NOTE, PLUCK}, {C5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} , {C5, Q_NOTE, PLUCK},
 {REST, 0, Q_NOTE} , {C5, Q_NOTE, PLUCK}, {D5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} ,
 {E5, Q_NOTE, PLUCK}, {C5, Q_NOTE, PLUCK}, {REST, 0, Q_NOTE} , {A4, Q_NOTE, PLUCK},
@@ -158,8 +156,6 @@ void setup() {
   Serial.println("Enabling compare interrupt A");
   TIMSK1 |= (1 << OCIE1A);
   sei();
-
-  Serial.println(NOTE_COUNT);
 }
 
 void loop() {
