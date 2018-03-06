@@ -63,7 +63,7 @@ struct Note
 {
   uint16_t freq;       //Frequency of the note
   uint16_t len;        //Total length of the Note/Beat (how long before the next note is played)
-  uint16_t restLen;    //The taken to switch from one note to the next (frequencies between 20Hz and 20KHz)
+  uint16_t restLen;    //The time taken to switch from one note to the next (frequencies between 20Hz and 20KHz)
                        //If the beat is a REST restLen is the total length of the REST
 };
 
